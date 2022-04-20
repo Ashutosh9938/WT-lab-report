@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AP</title>
+</head>
+<style>
+      *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+li,a,button{
+    font-family: "Monsterrat",sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2px 10%;
+}
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+    text-decoration: dotted;
+}
+.navlinks{
+    list-style: none;
+}
+.navlinks li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navlinks li a{
+    transition: all 1s ease 0s;
+}
+.navlinks li a:hover{
+    color: rgb(202, 30, 30);
+}
+button{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 8.3s ease 0s;
+}
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+
+}
+.navbar{
+    background-color: rgba(207, 201, 201, 0.751);
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 1px 0;
+    
+}
+.defn{
+    color: red;
+}
+body{
+    background: url(/home/ashutosh/Desktop/WT-lab-report/uhdpaper.com-download-4k-wallpaper-3840x2160-435.0_b.jpg) no-repeat center;
+    background-position:bottom;
+    background-repeat: repeat-y;
+    display: flex;
+    background-attachment: fixed;
+    min-height: 400px;
+}
+.home  .text-1 .text-2 .text-3{
+   
+    font-size: 90px;
+    margin-left: -3px;
+    margin: 5px 0;
+}
+.text-3{
+    font-size: 70px;
+}
+.text-1{
+    font-size: 70px;
+}
+#home{
+    display: flex;
+    height: 100vh;
+    color: rgb(255, 0, 0); /* Fixed text*/
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 250px;
+    margin-left: 95px;
+}
+
+.b{
+    color: rgb(255, 29, 29);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 60px;
+}
+.c{
+    color: rgb(255, 29, 29);
+    font-family:'Courier New', Courier, monospace;
+}
+.a{
+    color: aqua;
+    font-size: 60px;
+}
+</style>
+<body>
+    <div class="navbar">
+        <header>
+            <a class="logo" href="index.html">
+                <img src="/home/ashutosh/Desktop/WT-lab-report/istockphoto-1194258443-170667a.jpg" height="50px" width="160px"> 
+            </a>
+            <nav>
+                <ul class="navlinks">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Program</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </nav>
+            <a class="cta" href="#"><button>Contact</button></a>
+        </header>
+    </div>
+    <section id="home" >
+        <div class="content">
+            <div class="text-1">Hello,</div>
+            <div class="text-2"><span class="a">I'm</span><span class="b"> Ashutosh Poudel</span></div>
+            <div class="text-3">And I'm an <span class="c"><u> Student </u></span></div>
+        </div>
+</section>
+    
+</body>
